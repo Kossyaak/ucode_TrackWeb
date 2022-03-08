@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    height: 500px;
+    width: 100%;
+}
+body{
+    font-family: Verdana;
+    color: White;
+    background-color: black;
+}
+input[type="button"]  {
+    font-family: Verdana;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(145, 145, 145);
+}
+
+
+.to-superhero-button, .man-status {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.block1, .thor-block {
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.info {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+

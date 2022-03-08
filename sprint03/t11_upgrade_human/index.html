@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Upgrade Human</title>
+    <meta name="description" content="t03. Upgrade Human">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <h1>Upgrade Human</h1>
+
+    <img id="image" src="assets/images/maxresdefault.jpg" />
+
+    <div id="HumanCard">
+        <div class="block1">
+            <input type="number" min="1" max="100" id="seconds-count">
+            <input type="button" value="Сколько поспать?" onclick="human.sleepFor()" id="button-sleep">
+            <input type="button" value="УДАРИТЬ ПО СЕРВЕРУ" onclick="human.feed()" id="button-feed">
+        </div>
+
+        <div class="man-status" id="status" style="display: block;">Я абоба</div>
+
+        <div class="info">
+            <div ><span>Имя сисадмина: </span><span id="firstName"></span></div>
+            <div ><span>Фамилия сисадмина: </span><span id="lastName"></span></div>
+            <div ><span>Гендер(Автор сексуально идентифицирует себя как боевой вертолёт): </span><span id="gender"></span></div>
+            <div ><span>Сколько лет?(автору 0): </span><span id="age"></span></div>
+            <div ><span>Ударов по серверу: </span><span id="calories"></span></div>
+        </div>
+
+        <div class="to-superhero-button">
+            <input id="turnIntoSuperheroButton" type="button" value="Проэкт комплиментации человека" onclick="turnIntoSuperheroButton(human)" />
+        </div>     
+    </div>
+
+    <div id="SuperheroCard" style="display: none;" disabled>
+        <div class="block1">
+            <input type="number" min="1" max="100" id="seconds-count2">
+            <input type="button" value="Сколько поспать?" onclick="thor.sleepFor()" id="button-sleep2">
+            <input type="button" value="УДАРИТЬ ПО СЕРВЕРУ" onclick="thor.feed()" id="button-feed2">
+        </div>
+
+        <div class="thor-block">
+            <input type="button" value="Полетать" onclick="thor.fly()" id="button-fly2">
+            <input type="button" value="Запушить" onclick="thor.fightWithEvil()" id="button-fight2">
+        </div>
+
+        <div class="man-status" id="status2" style="display: block;">Я абоба</div>
+
+        <div class="info">
+            <div ><span>Имя сисадмина: </span><span id="firstName2"></span></div>
+            <div ><span>Фамилия сисадмина: </span><span id="lastName2"></span></div>
+            <div ><span>Гендер(Автор сексуально идентифицирует себя как боевой вертолёт): </span><span id="gender2"></span></div>
+            <div ><span>Сколько лет?(автору 0): </span><span id="age2"></span></div>
+            <div ><span>Ударов по серверу: </span><span id="calories2"></span></div>
+        </div>
+   
+    </div>
+
+
+</body>
+
+</html>

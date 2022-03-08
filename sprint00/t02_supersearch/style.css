@@ -1,0 +1,31 @@
+.search
+{
+    width: 100%;
+    height: 2em;
+    color: green;
+    padding-left: 10px;
+}
+.search:hover
+{
+    color: red;
+}
+.find
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 2em;
+    color: green;
+}
+.find:hover
+{
+
+    color: red;
+}
+#aboba
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+

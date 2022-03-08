@@ -1,0 +1,15 @@
+.hand_img
+{
+    height: 220px;
+}
+img
+{
+    height: 100px;
+}
+.hand_img:hover + table .odd td:nth-child(odd), .hand_img:hover + table .even td:nth-child(even)
+{
+    opacity: 0; 
+}
+
+
+

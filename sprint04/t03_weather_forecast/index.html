@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather Forecast</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <meta name="description" content="t04. Weather forecast" />
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+  <h1>Weather Forecast</h1>
+  <div class="container">
+  <div class="weather">
+    <input type = "text" id="city"  class = "search_weater" placeholder="City">
+    <button type="button" id="show_weather" class="weater_button" onclick="get_city()">Show Weather</button>
+    <h2><span class="city"></span></h2>
+    <div class="pokazaniya">  <p>Температура: <span class="temp"></span>°C</p>
+      <p>Влажность: <span class="humidity"></span>%</p>
+      <p>Ветер: <span class="wind"></span> км/ч</p>
+    </div>
+  
+</div>
+</div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

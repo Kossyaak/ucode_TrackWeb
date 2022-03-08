@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-origin: padding-box;
+    font-family: monospace;
+}
+h2
+{
+    opacity: 0;
+}
+html {
+    font-size: 16px;
+    background-color: #000;
+}
+h1
+{
+    color:whitesmoke;
+    text-align: center;
+}
+#background
+{
+    width: 100%;
+}
+.calculator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.calc-container {
+    background-color: #1d1d1d;
+    width: 700px;
+    height: auto;
+    border-radius: 30px;
+    opacity: 0.8;
+}
+
+.output {
+    width: 100%;
+}
+
+.operation {
+    width: 700px;
+    height: 70px;
+    color: #878787;
+    font-size: 1.9em;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+}
+
+.operation .value {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.result {
+    width: 700px;
+    height: 140px;
+    color: #FFF;
+    font-size: 2.6em;
+    font-weight: bold;
+    overflow: hidden;
+    position: relative;
+}
+
+.result .value {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.input {
+    background-color: #FFF;
+    border-radius: 0 0 25px 25px;
+    border: 1px solid #1d1d1d;
+    height: 390px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.row button {
+    width:60px;
+    height: 60px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 20%;
+    background: transparent;
+    margin: 8px;
+    cursor: pointer;
+}
+.background
+{
+    display: flex;
+}
+.row button:focus {
+    transition: 1s;
+}
+button:hover
+{
+    border: 1px solid grey;
+}
+
+.aboba:active
+{
+    transform: 1s !important;
+    background-color: rgba(0, 0, 0, 0.42);
+}
+.row #calculate {
+    color: #FFF;
+    background-color: #686868;
+    width: 121px;
+    border-radius: 50px;
+}
+
+.row #delete {
+    color: #FFF;
+    background-color: #686868;
+}
+
+#division,
+#multiplication,
+#subtraction,
+#addition {
+    color: #686868;
+}
+
+.input button span {
+    font-size: 0.6em;
+    position: absolute;
+}
+
+.active-angle {
+    background-color: #1d1d1d !important;
+    color: #FFF !important;
+    border-radius: 10px !important;
+}

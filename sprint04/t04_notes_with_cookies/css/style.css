@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#block__text {
+  background: rgba(89, 43, 154, 0.625);
+  width: 300px;
+  height: 100px;
+  overflow: auto;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  color:rgba(255, 255, 255, 0.673);
+}
+.container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: cornflowerblue;
+  padding: 50px;
+  width:30%;
+  border-radius: 50px;
+}
+button{
+  background-color: rgba(255, 255, 255, 0.673);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+
+}
+.buttons
+{
+  display: flex;
+}
+.main
+{
+  display: flex;
+  justify-content: center;
+}
+#txt
+{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border:none;
+  background-color: rgba(255, 255, 255, 0.673);
+}

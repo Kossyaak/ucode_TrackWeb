@@ -1,0 +1,63 @@
+.main
+{
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background-color: black;
+    float: left;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding-right: 10px;
+}
+.aka
+{
+    font-family:  Verdana;
+    font-size:12px;
+    color:white;
+    text-align: right;
+}
+.real_name
+{
+    font-family:  Verdana;
+    font-size:9px;
+    color: rgba(255, 255,255, 0.5);
+    text-align: right;
+}
+.cap
+{
+    background: linear-gradient(#4568DC, #B06AB3);
+}
+.man
+{
+    background: linear-gradient(#e52d27, #b31217);
+}
+.widow
+{
+    background: linear-gradient(to right, #000, #61045F);
+}
+.spider
+{
+    background: linear-gradient(to bottom, #e52d27, #000);
+}
+.fotka
+{
+    height: 182px;
+    margin-top: -101px;
+    margin-left: 10px;
+}
+.fotka_spider
+{
+    height: 182px;
+    margin-top: -58px;
+    margin-left: 10px;
+}
+
+#aboba
+{
+    margin-top: 50px;
+}
+
+
+
+
+

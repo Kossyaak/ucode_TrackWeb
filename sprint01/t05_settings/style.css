@@ -1,0 +1,249 @@
+html
+{
+    font-family: Geneva;
+}
+h1
+{
+    text-align: center;
+}
+.mainBox
+{
+    background-color: #3d4752;
+    padding: 10px 10px 10px 10px;
+    color: #e9e9ea;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.mainMAIN
+{
+    display: flex;
+    justify-content: center;
+}
+.range1
+{
+    height: 1px;
+    color: #34bda5;
+}
+.font
+{
+    background-color: #303a43;
+    color: #e9e9ea;
+    margin-bottom: 30px;
+    width: 220px;
+    height: 30px;
+    border: 1px solid white;
+}
+
+.settingsBox
+{
+    background-color: #45525f;
+    padding: 90px 90px 90px 90px;
+    display: flex;
+    border: 2px solid grey;
+}
+.menu {
+    height: 270px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #303a43;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.A
+{
+    padding-left: 10px;
+    padding-right: 100px;
+    font-family: monospace;
+    font-size: 7;
+}
+.switch1
+{
+    display: flex;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 100px;
+  }
+  .weight-label {
+    padding-left: 30px;
+    position: relative;
+    
+}
+
+.weight-label:before {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    content: '';
+    border: 1px solid black;
+    background-color: #3d4752;
+    left: 0;
+}
+
+.weight-option:checked + .weight-label:before {
+    content: '✓';
+    color: #34bda5;
+    line-height: 15px;
+    text-align: center;
+}
+
+.weight-option {
+    position: absolute;
+    margin-left: -1000px;
+    padding-top: 10px;
+}  
+  
+  .switch input 
+{
+    display:none;
+}
+.color_check
+{
+    margin-top: 60px;
+}
+ 
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #303a43;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #34bda5;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+p
+{
+    margin: 0;
+}
+  .darkUI
+  {
+      margin-left: 100px;
+      display: flex;
+      flex-direction: column;
+  }
+  .aaaaaaaaaa
+  {
+      display: flex;
+      align-items: center;
+
+  }
+
+  .color-pick::before {
+    border: 0.1rem solid grey;
+    height: var(--color-checkbox-size);
+    width: var(--color-checkbox-size);
+  }
+  :root {
+    --color-checkbox-size: 3rem;
+    --toggle-after-size: 2.7rem;
+    --toggle-before-height: 3.5rem;
+    --toggle-before-width: 6.5rem;
+  }
+  .color-picker-block,
+  .color-pick::before {
+    display: flex;
+    align-items: center;
+  }
+  .label:hover,
+  select:hover,
+  .weight input:hover,
+  .font-size:hover,
+  .img:hover {
+    cursor: pointer;
+  }
+  .weight,
+  .color-pick::before,
+  .side-menu {
+    align-items: center;
+  }
+  .weight input,
+  .color-pick::before {
+    justify-content: center;
+  }
+  .checkbox:checked + .color-pick::before {
+    content: '✓';
+  }
+  .font-size::before,
+  .font-size::after {
+    content: 'A';
+    top: 2.5rem;
+  }
+  .checkbox:checked + .color-pick::before {
+    color: white;
+  }
+  .checkbox {
+    display: none;
+  }
+  .color-pick::before {
+    content: '';
+  }
+  .color-pick::before {
+    border-radius: 50%;
+  }
+  .visuals::after,
+  .color-pick:nth-of-type(2)::before {
+    background: #37bca4;
+  }
+  .color-picker-block {
+    justify-content: space-between;
+    width: calc(100% - var(--color-checkbox-size));
+  }
+  .color-pick::before {
+    border: 0.1rem solid grey;
+    height: var(--color-checkbox-size);
+    width: var(--color-checkbox-size);
+  }
+.color-pick:first-of-type::before {
+    background: #3c75be;
+  }
+ .color-pick:nth-of-type(3)::before {
+    background: #de56d1;
+  }
+.color-pick:nth-of-type(4)::before {
+    background: #ddd951;
+  }
+  .color-pick:nth-of-type(5)::before {
+    background: #de7c57;
+  }

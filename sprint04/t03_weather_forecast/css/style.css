@@ -1,0 +1,64 @@
+html
+{
+  background: url("https://lifeo.ru/wp-content/uploads/gifka-more-61.gif")no-repeat;
+  background-size: 100%;
+}
+body
+{
+  font: bold 25px Arial; 
+  text-align: center;
+  color:rgb(255, 255, 255);
+}
+.input-wrapper {
+  width: 500px;
+  margin: 50px auto;
+  position: relative;
+}
+.weather
+{
+  display: block;
+  width: 50%;
+}
+.container
+{
+  display: flex;
+  justify-content: space-around;
+}
+::placeholder
+{
+  color:rgb(255, 255, 255);
+}
+.weater_button
+{
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.653);
+  border: none;
+  color:white;
+}
+.weater_button:hover
+{
+  transition: 1s;
+  border: 1px solid white
+}
+input {
+  color: #ddd;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  outline: none;
+  width: auto;
+  min-width: 25%;
+  font-size: 1.5rem;
+  line-height: 3em;
+  font-family: Roboto, Arial, sans-serif;
+  border-bottom: 3px solid #ffffff;
+  background-color: transparent;
+}
+
+.pokazaniya
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}

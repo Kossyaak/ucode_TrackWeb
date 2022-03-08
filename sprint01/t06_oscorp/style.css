@@ -1,0 +1,154 @@
+body
+{
+    margin: 0;
+    font-family: Verdana;
+}
+.main_header
+{
+    background-color: rgb(55, 55, 55);
+    width: 100%;
+    padding: 10px;
+    
+}
+.kek
+{
+    margin-top: 100px;
+}
+.price0
+{
+    display: inline; 
+    padding-left: 5px;
+}
+.BUY
+{
+    background-color: rgb(85, 24, 24);
+    text-align: center;
+    width: auto;
+    padding: 10px;
+    border-radius: 15px;
+    align-items: center;
+
+}
+.not
+{
+    color:red;
+}
+.info
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item
+{
+    display:flex;
+    margin: 0 160px;
+}
+.price2000
+{
+    display: inline; 
+    padding-left: 100px;
+}
+.img_product
+{
+    height: 220px;
+}
+.product
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.checkbox_div
+{
+    margin-right: 300px;
+}
+.aboba
+{
+    display: flex;
+}
+.line2
+{
+    display:flex;
+}
+.sqrt
+{
+    display: inline;
+    background-color: grey;
+    padding: 5px 10px 5px 10px;
+    border-radius: 25px;
+    margin-right: 30px;
+}
+.level_of_postironia
+{
+    display: flex;
+    flex-direction: column;
+}
+.checkbox
+{
+    margin-top: 20px;
+}
+.container
+{
+    width: 100%;
+    max-width: 2500px;
+    margin: 0 auto;
+}
+.header_top
+{
+    align-items: center;
+    justify-content: space-between;
+}
+.peregorodka
+{
+    opacity: 0;
+}
+.header2
+{
+    background-color: rgb(138, 138, 138);
+    align-items: center;
+    padding:10px
+}
+.phone
+{
+    color: white;
+}
+a
+{
+    color:White;
+    text-decoration: none;
+
+}
+.home
+{
+    color:black;
+}
+::placeholder
+{
+    text-align: center;
+    color: White;
+    font-family: Verdana;
+}
+.Search_field
+{
+    width: 200px;
+    height: 20px;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    font-family: Verdana;
+}
+.flex
+{
+    display: flex;
+}
+
+.logo
+{
+    width: 80px;
+    height: 50px;
+}
+.h1
+{
+    padding-right: 10px;
+}

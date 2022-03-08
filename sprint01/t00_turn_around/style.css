@@ -1,0 +1,13 @@
+img:hover
+{
+    transform: rotate(-30deg);
+
+}
+img
+{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+
+

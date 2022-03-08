@@ -1,0 +1,53 @@
+#TableHead
+{
+    color:white;
+    background-color: black;
+}
+#TableBody
+{
+    border: 1px solid white;
+    text-align: center;
+}
+td
+{
+    padding: 15px; 
+}
+#Orange
+{
+    background-color:  #ffad33;
+}
+#Green
+{
+    background-color: #52d452;
+}
+#Blue
+{
+    background-color: #0066ff;
+}
+#Yellow
+{
+    background-color: #ffff0d;
+}
+#Red
+{
+    background-color: #ff471a;
+}
+#Purple
+{
+    background-color: #d426ff;
+}
+p
+{
+    text-align: center;
+}
+.img
+{
+    width: 120px; 
+    height: 120px;
+    border-radius: 25%;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
