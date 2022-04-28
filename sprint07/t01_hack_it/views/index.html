@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:thjs="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        p {margin: 2px;}
+        #answer {color: green;}
+    </style>
+    <title>Hack it</title>
+</head>
+<body>
+    <h1>Password</h1>
+    <p id="answer" thjs:text="${answer}"></p>
+    <form action="/" method="post">
+        <p>Password not saved at session</p>
+        <span>Password:</span>
+        <input type="text" name="password" placeholder="Password"/><br>
+        <span>Salt for pass:</span>
+        <input max="15" min="1" name="salt" placeholder="Salt" type="number"/>
+        <input type="submit" value="Save" />
+    </form>
+</body>
+</html>
